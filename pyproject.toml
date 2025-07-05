@@ -1,0 +1,27 @@
+[project]
+name = "nearest-prime-finder"
+version = "0.1.0"
+description = "A Python script to find the nearest prime number to a given set of integers and output the results as an image table."
+authors = [
+    { name = "Your Name", email = "your.email@example.com" },
+]
+dependencies = [
+    "Pillow",
+]
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["prime", "number", "math", "image", "table"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/nearest-prime-finder"
+"Bug Tracker" = "https://github.com/yourusername/nearest-prime-finder/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
