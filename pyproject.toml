@@ -3,10 +3,10 @@ name = "nearest-prime-finder"
 version = "0.1.0"
 description = "A Python script to find the nearest prime number to a given set of integers and output the results as an image table."
 authors = [
-    { name = "Your Name", email = "your.email@example.com" },
+    { name = "Xavier", email = "sfarock6@gmail.com" },
 ]
 dependencies = [
-    "Pillow",
+    "Pillow==11.1.0",
 ]
 requires-python = ">=3.8"
 license = { text = "MIT" }
